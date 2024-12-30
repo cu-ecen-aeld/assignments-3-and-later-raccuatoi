@@ -27,5 +27,6 @@ bool this_function_returns_false()
  */
 const char *my_username()
 {
-    return "todo-please-enter-your-username-here-in-my_username";
+    static char my_uname[] = "raccuatoi";
+    return my_uname;
 }
